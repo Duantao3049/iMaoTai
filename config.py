@@ -18,7 +18,10 @@ push plus 微信推送,具体使用参考  https://www.pushplus.plus
 如没有配置则不推送消息
 为了安全,这里使用的环境配置.git里面请自行百度如何添加secrets.pycharm也可以自主添加.如果你实在不会,就直接用明文吧（O.o）
 '''
-PUSH_TOKEN = os.environ.get("PUSHPLUS_KEY")
+# PUSH_TOKEN = os.environ.get("PUSHPLUS_KEY")
+# PUSH_TOKEN = 'c11ff803bebd41b58e9e1b777ade2642'
+PUSH_TOKEN = '41ce49cfb4ea42b9a79de10d550c88da'
+
 
 
 '''
