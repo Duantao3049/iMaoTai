@@ -63,8 +63,15 @@ python3 login.py
 python3 main.py
 ```
 
-### 5、配置 Github actions，每日自动预约，省去自己买服务器的成本。
+### 5、配置 Github actions，或选择6、本地运行
+- 每日自动预约，省去自己买服务器的成本。
 - 先Fork本项目，再去自己的项目中配置`PUSHPLUS_KEY`和和`PRIVATE_AES_KEY`
+
+### 6、本地部署或部署在服务器上
+-  本地部署，服务在后台运行，每天9点10分 - 9点59分 之间 自动执行预约操作。
+```shell
+python3 scheduleMain.py
+```
 
 #### 欢迎请我喝咖啡（O.o），对我下班和周末时光的努力进行肯定，您的赞赏将会给我带来更多动力。或者动动小手点个小星星
 
